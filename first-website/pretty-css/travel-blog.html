@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: saddlebrown;
+        }
+        .author-name{
+            color: blue;
+        }
+        /* a content size depends on width-height, border, margin, padding. They together called box model */
+        .first-div{
+            background-color: yellow;
+            border: 5px dotted blue; 
+            border-radius: 15px;
+            /* margin works in outside way */
+            /* margin works like clockwise rotation */
+            /* margin: 10px 20px 10px;  */
+            /* here it is top-bottom, left-right */
+            width: 50%;
+            margin: 10px auto;
+
+        }
+        .first-div p{
+            text-align: justify;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 1000;
+        }
+        .heading{
+            color: red;
+        }
+        .third-div{
+            /* padding works in inside and rotate like margin */
+            padding: 15px 20px 30px 100px;
+        }
+        .third-div p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Travel Blog</h1>
+    <div class="first-div">
+        <h2 class="heading">My Sajek Tour</h2>
+        <small> <span class="author-name">Author: Tanim Istiak</span> </small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, assumenda! Nihil vero aliquid tempore magnam dolore eaque odit exercitationem, odio similique at numquam voluptatem saepe, itaque ratione reiciendis officia incidunt!</p>
+    </div>
+    <!-- <hr> -->
+    <div class="second-div first-div">
+        <h2 class="heading">My Cox's Bazar Tour</h2>
+        <small> <span class="author-name">Author: Tanim Istiak</span> </small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, assumenda! Nihil vero aliquid tempore magnam dolore eaque odit exercitationem, odio similique at numquam voluptatem saepe, itaque ratione reiciendis officia incidunt!</p>
+    </div>
+    <div class="third-div first-div">
+        <h2 class="heading">My Satkhira Bazar Tour</h2>
+        <small> <span class="author-name">Author: Tanim Istiak</span> </small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, assumenda! Nihil vero aliquid tempore magnam dolore eaque odit exercitationem, odio similique at numquam voluptatem saepe, itaque ratione reiciendis officia incidunt!</p>
+    </div>
+</body>
+</html>
